@@ -1,0 +1,199 @@
+currency-symbol: "$"
+currency-name: "Coins"
+
+# Starting balance for new players
+starting-balance: 100.0
+
+# Shop categories shown in main menu
+categories:
+  weapons:
+    name: "&c⚔ Weapons"
+    material: DIAMOND_SWORD
+    slot: 10
+    items:
+      wood_sword:
+        name: "&fWooden Sword"
+        material: WOODEN_SWORD
+        buy: 10.0
+        sell: 5.0
+        slot: 0
+      stone_sword:
+        name: "&7Stone Sword"
+        material: STONE_SWORD
+        buy: 25.0
+        sell: 12.0
+        slot: 1
+      iron_sword:
+        name: "&fIron Sword"
+        material: IRON_SWORD
+        buy: 60.0
+        sell: 30.0
+        slot: 2
+      gold_sword:
+        name: "&6Gold Sword"
+        material: GOLDEN_SWORD
+        buy: 80.0
+        sell: 40.0
+        slot: 3
+      diamond_sword:
+        name: "&bDiamond Sword"
+        material: DIAMOND_SWORD
+        buy: 200.0
+        sell: 100.0
+        slot: 4
+      bow:
+        name: "&eBow"
+        material: BOW
+        buy: 40.0
+        sell: 20.0
+        slot: 5
+      arrow:
+        name: "&eArrow"
+        material: ARROW
+        buy: 2.0
+        sell: 1.0
+        slot: 6
+
+  armor:
+    name: "&9🛡 Armor"
+    material: DIAMOND_CHESTPLATE
+    slot: 12
+    items:
+      iron_helmet:
+        name: "&fIron Helmet"
+        material: IRON_HELMET
+        buy: 50.0
+        sell: 25.0
+        slot: 0
+      iron_chestplate:
+        name: "&fIron Chestplate"
+        material: IRON_CHESTPLATE
+        buy: 80.0
+        sell: 40.0
+        slot: 1
+      iron_leggings:
+        name: "&fIron Leggings"
+        material: IRON_LEGGINGS
+        buy: 70.0
+        sell: 35.0
+        slot: 2
+      iron_boots:
+        name: "&fIron Boots"
+        material: IRON_BOOTS
+        buy: 45.0
+        sell: 22.0
+        slot: 3
+      diamond_helmet:
+        name: "&bDiamond Helmet"
+        material: DIAMOND_HELMET
+        buy: 180.0
+        sell: 90.0
+        slot: 4
+      diamond_chestplate:
+        name: "&bDiamond Chestplate"
+        material: DIAMOND_CHESTPLATE
+        buy: 260.0
+        sell: 130.0
+        slot: 5
+      diamond_leggings:
+        name: "&bDiamond Leggings"
+        material: DIAMOND_LEGGINGS
+        buy: 220.0
+        sell: 110.0
+        slot: 6
+      diamond_boots:
+        name: "&bDiamond Boots"
+        material: DIAMOND_BOOTS
+        buy: 160.0
+        sell: 80.0
+        slot: 7
+
+  food:
+    name: "&a🍖 Food"
+    material: COOKED_BEEF
+    slot: 14
+    items:
+      bread:
+        name: "&eBread"
+        material: BREAD
+        buy: 3.0
+        sell: 1.0
+        slot: 0
+      cooked_beef:
+        name: "&6Steak"
+        material: COOKED_BEEF
+        buy: 6.0
+        sell: 3.0
+        slot: 1
+      cooked_chicken:
+        name: "&eCooked Chicken"
+        material: COOKED_CHICKEN
+        buy: 4.0
+        sell: 2.0
+        slot: 2
+      apple:
+        name: "&cApple"
+        material: APPLE
+        buy: 2.0
+        sell: 1.0
+        slot: 3
+      golden_apple:
+        name: "&6Golden Apple"
+        material: GOLDEN_APPLE
+        buy: 40.0
+        sell: 20.0
+        slot: 4
+      cooked_fish:
+        name: "&bCooked Cod"
+        material: COOKED_COD
+        buy: 4.0
+        sell: 2.0
+        slot: 5
+
+  blocks:
+    name: "&7🧱 Blocks"
+    material: GRASS_BLOCK
+    slot: 16
+    items:
+      stone:
+        name: "&7Stone"
+        material: STONE
+        buy: 1.0
+        sell: 0.5
+        slot: 0
+      wood:
+        name: "&6Oak Log"
+        material: OAK_LOG
+        buy: 2.0
+        sell: 1.0
+        slot: 1
+      sand:
+        name: "&eSand"
+        material: SAND
+        buy: 1.0
+        sell: 0.5
+        slot: 2
+      glass:
+        name: "&bGlass"
+        material: GLASS
+        buy: 3.0
+        sell: 1.0
+        slot: 3
+      obsidian:
+        name: "&5Obsidian"
+        material: OBSIDIAN
+        buy: 10.0
+        sell: 5.0
+        slot: 4
+      iron_block:
+        name: "&fIron Block"
+        material: IRON_BLOCK
+        buy: 80.0
+        sell: 40.0
+        slot: 5
+      diamond_block:
+        name: "&bDiamond Block"
+        material: DIAMOND_BLOCK
+        buy: 500.0
+        sell: 250.0
+        slot: 6

@@ -1,0 +1,24 @@
+name: PurpleZoneShop
+version: 1.0.0
+main: com.purplezone.shop.ShopPlugin
+api-version: 1.20
+authors: [PurpleZone]
+description: Custom NPC Shop GUI for PurpleZone server
+
+commands:
+  shop:
+    description: Open the main shop
+    usage: /shop
+    permission: purplezone.shop
+  shopbalance:
+    description: Check your balance
+    usage: /shopbalance
+    permission: purplezone.shop
+
+permissions:
+  purplezone.shop:
+    description: Access the shop
+    default: true
+  purplezone.shop.admin:
+    description: Admin shop commands
+    default: op
